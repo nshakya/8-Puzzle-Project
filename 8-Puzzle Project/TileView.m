@@ -6,9 +6,14 @@
 //  Copyright (c) 2012 Shakya, Neema. All rights reserved.
 //
 
-#import "Tiles.h"
+#import "TileView.h"
 
-@implementation Tiles
+@implementation TileView
+
+-(void) dealloc {
+    [image release];
+    [super dealloc];
+}
 
 - (id)initWithFrame:(CGRect)frame withImageNamed:(NSString *) imageName {
     if (self = [super initWithFrame:frame]){
@@ -20,6 +25,7 @@
         }
     return self;
 }
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

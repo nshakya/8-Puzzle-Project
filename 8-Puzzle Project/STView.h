@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Tiles.h"
+#import "TileView.h"
 
-@interface View : UIView{
-    Tiles* tiles;
+@interface STView : UIView{
+    TileView* tiles;
     NSMutableArray *tileArray;
 }
 

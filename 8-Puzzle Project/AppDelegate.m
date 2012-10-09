@@ -13,6 +13,7 @@
 - (void)dealloc
 {
     [_window release];
+    [self.viewController release];
     [super dealloc];
 }
 
@@ -20,7 +21,7 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:nil bundle:nil];
+    self.viewController = [[STViewController alloc] initWithNibName:nil bundle:nil];
     [self.window addSubview:[self.viewController view]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

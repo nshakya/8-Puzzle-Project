@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Shakya, Neema. All rights reserved.
 //
 
-#import "View.h"
+#import "STView.h"
 
-@implementation View
+@implementation STView
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -29,7 +29,7 @@
                 if ((i==2) && (j==2))
                     break;
                 
-                tiles = [[Tiles alloc] initWithFrame: CGRectMake(xCoord,yCoord, 100, 100)
+                tiles = [[TileView alloc] initWithFrame: CGRectMake(xCoord,yCoord, 100, 100)
                                   withImageNamed: @"Green.png"];
                 [tileArray addObject: tiles]; //add tile objects to the array
                 [self addSubview: tiles]; //add tile array to the super view

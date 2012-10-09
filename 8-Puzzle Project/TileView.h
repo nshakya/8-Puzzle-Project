@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Tiles : UIView{
+@interface TileView : UIView{
     UIImageView *image;
     CGPoint location;
 }
 
 - (id)initWithFrame:(CGRect)frame withImageNamed:(NSString *) imageName;
-
 
 @end

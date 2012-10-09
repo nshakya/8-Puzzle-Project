@@ -13,9 +13,9 @@
 		0ECA23F416212EF9000D98FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ECA23F216212EF9000D98FB /* InfoPlist.strings */; };
 		0ECA23F616212EF9000D98FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA23F516212EF9000D98FB /* main.m */; };
 		0ECA23FA16212EF9000D98FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA23F916212EF9000D98FB /* AppDelegate.m */; };
-		0ECA240216212F23000D98FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA240116212F23000D98FB /* ViewController.m */; };
-		0ECA240516212F4A000D98FB /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA240416212F4A000D98FB /* View.m */; };
-		0ECA240816212F62000D98FB /* Tiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA240716212F62000D98FB /* Tiles.m */; };
+		0ECA240216212F23000D98FB /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA240116212F23000D98FB /* STViewController.m */; };
+		0ECA240516212F4A000D98FB /* STView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA240416212F4A000D98FB /* STView.m */; };
+		0ECA240816212F62000D98FB /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECA240716212F62000D98FB /* TileView.m */; };
 		0ECA240B16212FB4000D98FB /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECA240A16212FB4000D98FB /* Green.png */; };
 /* End PBXBuildFile section */
 
@@ -30,12 +30,12 @@
 		0ECA23F716212EF9000D98FB /* 8-Puzzle Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8-Puzzle Project-Prefix.pch"; sourceTree = "<group>"; };
 		0ECA23F816212EF9000D98FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0ECA23F916212EF9000D98FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0ECA240016212F23000D98FB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0ECA240116212F23000D98FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0ECA240316212F49000D98FB /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		0ECA240416212F4A000D98FB /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		0ECA240616212F62000D98FB /* Tiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiles.h; sourceTree = "<group>"; };
-		0ECA240716212F62000D98FB /* Tiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiles.m; sourceTree = "<group>"; };
+		0ECA240016212F23000D98FB /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		0ECA240116212F23000D98FB /* STViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		0ECA240316212F49000D98FB /* STView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STView.h; sourceTree = "<group>"; };
+		0ECA240416212F4A000D98FB /* STView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STView.m; sourceTree = "<group>"; };
+		0ECA240616212F62000D98FB /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		0ECA240716212F62000D98FB /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 		0ECA240A16212FB4000D98FB /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,12 +84,12 @@
 		0ECA23EF16212EF9000D98FB /* 8-Puzzle Project */ = {
 			isa = PBXGroup;
 			children = (
-				0ECA240616212F62000D98FB /* Tiles.h */,
-				0ECA240716212F62000D98FB /* Tiles.m */,
-				0ECA240316212F49000D98FB /* View.h */,
-				0ECA240416212F4A000D98FB /* View.m */,
-				0ECA240016212F23000D98FB /* ViewController.h */,
-				0ECA240116212F23000D98FB /* ViewController.m */,
+				0ECA240616212F62000D98FB /* TileView.h */,
+				0ECA240716212F62000D98FB /* TileView.m */,
+				0ECA240316212F49000D98FB /* STView.h */,
+				0ECA240416212F4A000D98FB /* STView.m */,
+				0ECA240016212F23000D98FB /* STViewController.h */,
+				0ECA240116212F23000D98FB /* STViewController.m */,
 				0ECA23F816212EF9000D98FB /* AppDelegate.h */,
 				0ECA23F916212EF9000D98FB /* AppDelegate.m */,
 				0ECA23F016212EF9000D98FB /* Supporting Files */,
@@ -181,9 +181,9 @@
 			files = (
 				0ECA23F616212EF9000D98FB /* main.m in Sources */,
 				0ECA23FA16212EF9000D98FB /* AppDelegate.m in Sources */,
-				0ECA240216212F23000D98FB /* ViewController.m in Sources */,
-				0ECA240516212F4A000D98FB /* View.m in Sources */,
-				0ECA240816212F62000D98FB /* Tiles.m in Sources */,
+				0ECA240216212F23000D98FB /* STViewController.m in Sources */,
+				0ECA240516212F4A000D98FB /* STView.m in Sources */,
+				0ECA240816212F62000D98FB /* TileView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "View.h"
+#import "STView.h"
 
-@interface ViewController : UIViewController
+@interface STViewController : UIViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 

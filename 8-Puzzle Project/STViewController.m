@@ -6,20 +6,20 @@
 //  Copyright (c) 2012 Shakya, Neema. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "STViewController.h"
 
-@interface ViewController ()
+@interface STViewController ()
 
 @end
 
-@implementation ViewController
+@implementation STViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        View* myView = [[View alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        STView* myView = [[STView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
         self.view = myView;
         [myView release];
     }
